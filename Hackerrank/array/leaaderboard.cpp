@@ -23,8 +23,6 @@ int manualFindIndex(const vector<int>& arr, int target) {
             return i + 1;  // Add 1 to convert from zero-based index to rank
         }
     }
-
-    
     return -1;  // Element not found
 }
 
