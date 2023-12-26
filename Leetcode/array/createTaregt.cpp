@@ -10,6 +10,7 @@ vector<int> createTargetArray(vector<int>& nums, vector<int>& index) {
     return target;
 }
 
+
 int main() {
     vector<int> arr = {0, 1, 2, 3, 4};
     vector<int> index = {0, 1, 2, 2, 1};
